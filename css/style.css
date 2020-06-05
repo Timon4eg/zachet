@@ -39,7 +39,14 @@ header {
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: -0.04em;
-    color: #ffffff;
+}
+
+.logo:hover {
+    color: #998675;
+}
+
+.logo:active {
+    color: #fff;
 }
 
 .menu {
@@ -60,6 +67,10 @@ header {
 
 .menu-item:hover a {
     color: #a79783;
+}
+
+.menu-item:active a {
+    color: #fff;
 }
 
 .cart {
@@ -101,6 +112,16 @@ header {
     transform: rotate(225deg);
 }
 
+.slider-btn1:hover {
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+.slider-btn1:active {
+    border-top: 2px solid #a3a2a0;
+    border-right: 2px solid #a3a2a0;
+}
+
 .slider-btn2 {
     display: block;
     width: 60px;
@@ -109,6 +130,16 @@ header {
     border-top: 2px solid #a3a2a0;
     border-right: 2px solid #a3a2a0;
     transform: rotate(45deg);
+}
+
+.slider-btn2:hover {
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+.slider-btn2:active {
+    border-top: 2px solid #a3a2a0;
+    border-right: 2px solid #a3a2a0;
 }
 
 .slider-txt {
