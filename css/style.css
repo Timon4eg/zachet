@@ -112,7 +112,9 @@ header {
 }
 
 .slider-txt {
+    display: block;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .slider-txt h2 {
@@ -134,7 +136,7 @@ header {
 }
 
 .slider-txt p {
-    margin: 0 0 54px 0;
+    margin: 0 0 35px 0;
     max-width: 589px;
     font-family: Montserrat;
     font-size: 16px;
@@ -145,8 +147,6 @@ header {
 }
 
 .slider-txt-btn {
-    display: block;
-    margin:  0 auto;
     width: 170px;
     height: 53px;
     font-family: Raleway;
@@ -157,14 +157,16 @@ header {
     color: #ffffff;
     background-color: #998675;
     border-radius: 3px;
-    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .slider-pagination {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 329px 0 42px 0;
+    padding: 325px 0 0 0;
 }
 
 .slider-pagination-item {
@@ -183,3 +185,64 @@ header {
     transform: scale(1.36);
 }
 
+.main-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 89px; 
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+}
+  
+  .features:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+}
+  
+  .features:hover .features-icon {
+    fill: #c7b299;
+}
+  
+  .features:hover .features-title {
+    color: #c7b299;
+}
+  
+  .features:hover:after {
+    background-color: #c7b299;
+}
+  
+  .features-icon {
+    display: block;
+    fill: #555555;
+    margin: 0 0 20px 0;
+}
+  
+  .features-title {
+    width: 100%;
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+6}
+      
+  .features-txt {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
