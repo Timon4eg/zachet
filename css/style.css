@@ -481,6 +481,8 @@ header {
 }
 
 .projects {
+    width: 1170px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -525,7 +527,7 @@ header {
 
 .projects-btns-item {
     width: 120px;
-    height: 32px;
+    min-height: 32px;
     border: 1.0px solid #ebebeb;
     border-radius: 3.0px;
     font-family: montserrat;
@@ -550,7 +552,7 @@ header {
 }
 
 .projects-cart {
-    width: 370px;
+    width: 30%;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -584,6 +586,16 @@ header {
     color: #c7b299;
 }
 
+.projects-cart:hover .projects-btn-link-svg {
+    display: block;
+    fill: #fff;
+}
+
+.projects-cart:hover .projects-btn-search-svg {
+    display: block;
+    fill: #fff;
+}
+
 .projects-cart:nth-child(3n) {
     margin-right: 0;
 }
@@ -597,6 +609,7 @@ header {
 }
 
 .projects-cart-headers {
+
     min-height: 100px;
     margin: 0 0 30px 0;
     display: flex;
