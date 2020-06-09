@@ -558,6 +558,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     margin: 0 30px 0 0;
+    position: relative;
 }
 
 .projects-cart:hover .projects-cart-img {
@@ -566,6 +567,16 @@ header {
 
 .projects-cart:hover .projects-cart-headers {
     background-color: #362f2d;
+}
+
+.projects-cart:hover .project-cart-link-icon {
+    display: block;
+    fill: #fff;
+}
+
+.projects-cart:hover .project-cart-search-icon {
+    display: block;
+    fill: #fff;
 }
 
 .projects-cart:hover .projects-cart-header1  {
@@ -638,6 +649,44 @@ header {
     line-height: 20px;
     color: #d1d1d1;
     margin: 0 0 20px 29px;
+}
+
+.project-cart-link-icon {
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+
+.project-cart-search-icon {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+.project-cart-link-icon,
+.project-cart-search-icon {
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+}
+
+.projects-cart:hover .project-cart-link-icon:hover {
+    fill: #c7b299;
+}
+
+.projects-cart:hover .project-cart-link-icon:active {
+    fill: #fff;
+}
+
+.projects-cart:hover .project-cart-search-icon:hover {
+    fill: #c7b299;
+}
+
+.projects-cart:hover .project-cart-search-icon:active {
+    fill: #fff;
 }
 
 .projects-btn {
