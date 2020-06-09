@@ -908,3 +908,65 @@ header {
     top: 13%;
     left: -9%;
 }
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    width: 1920px;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+    box-sizing: border-box;
+    padding: 0 375px 0 375px;
+    margin: 0 auto;
+}
+
+.numbers-item {
+    width: 167px;
+    margin: 69px 73px 0 0;
+    box-sizing: border-box;
+}
+
+.numbers-item:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #f1eee9;
+    margin: 0 auto;
+}
+
+.numbers-item:last-child {
+    margin: 69px 0 0 0;
+}
+
+.numbers-item-icon {
+    fill: #c7b299;
+    display: block;
+    margin: 0 auto;
+}
+
+.numbers-item-title {
+    font-family: montserrat;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 36px;
+    color: #ffffff;
+    margin: 30px 0 0 0;
+    display: block;
+    text-align: center;
+}
+
+.numbers-item-txt {
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #c7b299;
+    display: block;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
