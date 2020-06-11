@@ -1009,25 +1009,65 @@ header {
 }
 
 .posts-cart {
-    width: 30%;
+    width: 370px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
     margin: 0 30px 0 0;
+    position: relative;
+}
+
+.posts-cart:hover .posts-cart-img {
+    filter: brightness(20%);
+}
+
+.posts-cart:hover .posts-cart-info {
+    background-color: #362f2d;
+}
+
+.posts-cart:hover .posts-cart-header {
+    font-family: raleway;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #c7b299;
+}
+
+.posts-cart:hover .posts-cart-txt {
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.posts-cart:hover .poster-cart-date-day {
+    background-color: #c7b299;
+}
+
+.posts-cart:hover .poster-cart-date-month {
+    background-color: #a48d72;
 }
 
 .posts-cart a {
     text-decoration: none;
 }
 
-.posts-cart-img {
-    
+.posts-cart:last-child {
+    margin: 0;
+}
+
+.posts-cart-info {
+    min-height: 175px;
+    margin: 0;
 }
 
 .read-more {
     text-decoration: none;
-    margin: 0 0 0 29px;
+    margin: 0 0 29px 29px;
     font-family: montserrat;
     font-weight: 300;
     font-style: normal;
@@ -1036,8 +1076,63 @@ header {
     color: #c7b299;
 }
 
+.read-more:hover {
+    color: #fff;
+}
+
+.read-more:active {
+    color: #c7b299;
+}
+
 .read-more:after {
     content: "\25ba";
+    margin: 0 0 29px 9px;
+}
+
+.posts-cart-img {
+    display: block;
+}
+
+.poster-cart-date {
+    width: 50px;
+    min-height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.poster-cart-date-day {
+    width: 50px;
+    min-height: 35px;
+    background-color: #363636;
+    border-radius: 3.0px 3.0px 0.0px 0.0px;
+    display: block;
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 9px 0 0 0;
+    box-sizing: border-box;
+}
+
+.poster-cart-date-month {
+    width: 50px;
+    min-height: 25px;
+    background-color: #252525;
+    border-radius: 0.0px 0.0px 3.0px 3.0px;
+    display: block;
+    font-family: roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    box-sizing: border-box;
 }
 
 .posts-cart-header {
