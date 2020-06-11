@@ -1056,7 +1056,7 @@ header {
     text-decoration: none;
 }
 
-.posts-cart:last-child {
+.posts-cart:nth-child(5) {
     margin: 0;
 }
 
@@ -1155,4 +1155,39 @@ header {
     font-size: 14px;
     line-height: 22px;
     color: #8c8c8c;
+}
+
+.posts-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.posts-btns-item {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    fill: #c7b299;
+    margin: 40px 0 0 0;
+}
+
+.posts-btns-item-icon {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+}
+
+.posts-btns-item:hover {
+    fill: #d1d1d1;
+}
+
+.posts-btns-item:active {
+    fill: #c7b299;
 }
