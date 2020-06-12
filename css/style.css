@@ -146,7 +146,6 @@ header {
 
 .cart-icon {
     display: block;
-    width: 100%;
     fill: #fff;
     margin: 0 0 0 10px;
 }
@@ -842,6 +841,353 @@ header {
      fill: #998675;
 }
 
- .video-content-play-btn:active {
+.video-content-play-btn:active {
      fill: #fff;
  }
+
+.devices {
+     width: 1920px;
+     min-height: 616px;
+     margin: 79px auto 0 auto;
+     background-image: url(../img/iphone_in_hand.png);
+     background-position: 423px 0;
+     background-repeat: no-repeat;
+     position: relative;
+}
+
+.devices-content {
+     width: 657px;
+     position: absolute;
+     top: 18%;
+     left: 46%;
+}
+
+.devices-content h2 {
+    font-family: raleway;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #555555;
+}
+
+.devices-content p {
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8c8c8c;
+}
+
+.devices-content-list-item {
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 32px;
+    color: #8c8c8c;
+    list-style-type: none;
+    position: relative;
+    margin: 0 0 0 48px;
+}
+
+.devices-content-list-item:before {
+    content: "\203a";
+    font-size: 31px;
+    color: #fff;
+    display: block;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #c7b299;
+    text-align: center;
+    line-height: 17px;
+    background-size: contain;
+    position: absolute;
+    top: 13%;
+    left: -9%;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    width: 1920px;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+    box-sizing: border-box;
+    padding: 0 375px 0 375px;
+    margin: 0 auto;
+}
+
+.numbers-item {
+    width: 167px;
+    margin: 69px 73px 0 0;
+    box-sizing: border-box;
+}
+
+.numbers-item:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #f1eee9;
+    margin: 0 auto;
+}
+
+.numbers-item:last-child {
+    margin: 69px 0 0 0;
+}
+
+.numbers-item-icon {
+    fill: #c7b299;
+    display: block;
+    margin: 0 auto;
+}
+
+.numbers-item-title {
+    font-family: montserrat;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 36px;
+    color: #ffffff;
+    margin: 30px 0 0 0;
+    display: block;
+    text-align: center;
+}
+
+.numbers-item-txt {
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #c7b299;
+    display: block;
+    text-align: center;
+    margin: 21px 0 30px 0;
+}
+
+.posts {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px 0 80px 0;
+}
+
+.posts-header {
+    width: 100%;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    font-family: raleway;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #555555;
+    margin: 0 auto;
+}
+
+.posts-txt {
+    width: 85%;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    margin: 30px auto 40px auto;
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8c8c8c;
+    margin: 30px 0 40px 0;
+}
+
+.posts-cart {
+    width: 370px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 30px 0 0;
+    position: relative;
+}
+
+.posts-cart:hover .posts-cart-img {
+    filter: brightness(20%);
+}
+
+.posts-cart:hover .posts-cart-info {
+    background-color: #362f2d;
+}
+
+.posts-cart:hover .posts-cart-header {
+    font-family: raleway;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #c7b299;
+}
+
+.posts-cart:hover .posts-cart-txt {
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.posts-cart:hover .poster-cart-date-day {
+    background-color: #c7b299;
+}
+
+.posts-cart:hover .poster-cart-date-month {
+    background-color: #a48d72;
+}
+
+.posts-cart a {
+    text-decoration: none;
+}
+
+.posts-cart:nth-child(5) {
+    margin: 0;
+}
+
+.posts-cart-info {
+    min-height: 175px;
+    margin: 0;
+}
+
+.read-more {
+    text-decoration: none;
+    margin: 0 0 29px 29px;
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c7b299;
+}
+
+.read-more:hover {
+    color: #fff;
+}
+
+.read-more:active {
+    color: #c7b299;
+}
+
+.read-more:after {
+    content: "\25ba";
+    margin: 0 0 29px 9px;
+}
+
+.posts-cart-img {
+    display: block;
+}
+
+.poster-cart-date {
+    width: 50px;
+    min-height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.poster-cart-date-day {
+    width: 50px;
+    min-height: 35px;
+    background-color: #363636;
+    border-radius: 3.0px 3.0px 0.0px 0.0px;
+    display: block;
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 9px 0 0 0;
+    box-sizing: border-box;
+}
+
+.poster-cart-date-month {
+    width: 50px;
+    min-height: 25px;
+    background-color: #252525;
+    border-radius: 0.0px 0.0px 3.0px 3.0px;
+    display: block;
+    font-family: roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    box-sizing: border-box;
+}
+
+.posts-cart-header {
+    display: block;
+    margin: 29px 44px 19px 29px;
+    font-family: raleway;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #555555;
+}
+
+.posts-cart-txt {
+    display: block;
+    margin: 0 44px 27px 29px;
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8c8c8c;
+}
+
+.posts-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.posts-btns-item {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    fill: #c7b299;
+    margin: 40px 0 0 0;
+}
+
+.posts-btns-item-icon {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+}
+
+.posts-btns-item:hover {
+    fill: #d1d1d1;
+}
+
+.posts-btns-item:active {
+    fill: #c7b299;
+}
