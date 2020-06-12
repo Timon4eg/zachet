@@ -1391,5 +1391,59 @@ footer {
 }
 
 .footer2 {
+    width: 1920px;
+    min-height: 111px;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 
+.footer2-copyright {
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #555555;
+    padding: 0 10px 0 10px;
+    border-right: 2px solid #252525;
+}
+
+.footer2-copyright:last-child {
+    border-right: none;
+}
+
+.footer2-copyright:nth-last-child(2) {
+    padding: 0 10px 0 440px;
+}
+
+.footer2-copyright a {
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #959595;
+    text-decoration: none;
+}
+
+.footer2-menu {
+    padding: 0 10px 0 10px;
+    border-right: 2px solid #252525;
+}
+
+.footer2-menu a {
+    text-decoration: none;
+    font-family: montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #555555;
+}
+
+.footer2-menu:hover a {
+    color: #c7b299;
 }
