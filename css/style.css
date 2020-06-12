@@ -1191,3 +1191,22 @@ header {
 .posts-btns-item:active {
     fill: #c7b299;
 }
+
+.partners {
+    width: 1920px;
+    min-height: 489px;
+    background-image: url(../img/partners_bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.partners-link {
+    display: block;
+    margin: 0 90px 0 0;
+}
+
+.partners-link:last-child {
+    margin: 0;
+}
